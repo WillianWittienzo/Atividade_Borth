@@ -13,6 +13,8 @@
         </div>
     </header>
 
+    @include('menu')
+
     <main class="container py-4">
         @yield('content')
     </main>
