@@ -1,0 +1,1 @@
+{{-- Layout compartilhado dos sistemas. --}}
