@@ -18,3 +18,8 @@ Route::get('/filmes', [FilmeController::class, 'index'])->name('filmes.index');
 Route::get('/filme/{id}', [FilmeController::class, 'show'])
     ->whereNumber('id')
     ->name('filme.detalhes');
+
+Route::get('/jogos', [JogoController::class, 'index'])->name('jogos.index');
+Route::get('/jogo/{id}', [JogoController::class, 'show'])
+    ->whereNumber('id')
+    ->name('jogo.detalhes');

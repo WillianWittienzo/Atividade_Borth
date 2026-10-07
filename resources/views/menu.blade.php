@@ -3,5 +3,6 @@
         <a href="#">Alunos</a>
         <a href="{{ route('produtos.index') }}">Produtos</a>
         <a href="{{ route('filmes.index') }}">Filmes</a>
+        <a href="{{ route('jogos.index') }}">Jogos</a>
     </div>
 </nav>
